@@ -109,3 +109,13 @@ svg .constname {
   fill: "#ffff99";  fill-opacity:0.7; font: bold 14px 'Lucida Sans Unicode', Trebuchet, Helvetica, Arial, sans-serif; text-anchor: middle
 }
  */
+
+ /* Hide element */
+
+ #stars :not(:is(label[for="stars-show"], input[id="stars-show"], label[for="stars-limit"], input[id="stars-limit"]))  {
+  display: none !important;
+ }
+
+ #location :not(:is(label[for="lat"], input[id="lat"], input[id="lon"], span, input[id="here"], label[for="datetime"], input[id="datetime"], input[id="now"], div[id="datepick"]))  {
+  display: none !important;
+ }
